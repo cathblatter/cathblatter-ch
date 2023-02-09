@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/posts/2022/2022-01-27_random-stuff.html</loc>
-    <lastmod>2023-02-09T20:27:01.752Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/index.html</loc>
+    <lastmod>2023-02-09T20:31:08.700Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/posts/2022/2022-02-24_renaming-variables.html</loc>
-    <lastmod>2023-02-09T20:27:02.495Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/listings.html</loc>
+    <lastmod>2023-02-09T20:31:09.576Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</loc>
-    <lastmod>2023-02-09T20:27:02.838Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</loc>
+    <lastmod>2023-02-09T20:31:10.284Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio.html</loc>
-    <lastmod>2023-02-09T20:27:03.443Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/posts/2022/2022-02-24_renaming-variables.html</loc>
+    <lastmod>2023-02-09T20:31:11.060Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map.html</loc>
-    <lastmod>2023-02-09T20:27:04.046Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/posts/2022/2022-01-27_random-stuff.html</loc>
+    <lastmod>2023-02-09T20:31:11.584Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</loc>
-    <lastmod>2023-02-09T20:27:04.609Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</loc>
+    <lastmod>2023-02-09T20:31:11.948Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/index.html</loc>
-    <lastmod>2023-02-09T20:27:04.895Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map.html</loc>
+    <lastmod>2023-02-09T20:31:12.612Z</lastmod>
   </url>
   <url>
-    <loc>https://cathblatter.github.io/cathblatter.ch/listings.html</loc>
-    <lastmod>2023-02-09T20:27:05.422Z</lastmod>
+    <loc>https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio.html</loc>
+    <lastmod>2023-02-09T20:31:13.196Z</lastmod>
   </url>
 </urlset>
