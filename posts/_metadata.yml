@@ -11,4 +11,4 @@ format:
   html:
     toc: true
 
-image-placeholder: tools-placeholder.png
+image: tools-placeholder.png
