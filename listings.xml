@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Cath Blatter</title>
-<link>https://github.com/cathblatter/cathblatter-ch/listings.html</link>
-<atom:link href="https://github.com/cathblatter/cathblatter-ch/listings.xml" rel="self" type="application/rss+xml"/>
+<link>https://cathblatter.github.io/cathblatter.ch/listings.html</link>
+<atom:link href="https://cathblatter.github.io/cathblatter.ch/listings.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.335</generator>
-<lastBuildDate>Thu, 24 Feb 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.3.188</generator>
+<lastBuildDate>Wed, 23 Feb 2022 23:00:00 GMT</lastBuildDate>
 <item>
   <title>Different approaches to rename variables</title>
   <dc:creator>Cath Blatter</dc:creator>
-  <link>https://github.com/cathblatter/cathblatter-ch/posts/2022/2022-02-24_renaming-variables.html</link>
+  <link>https://cathblatter.github.io/cathblatter.ch/posts/2022/2022-02-24_renaming-variables.html</link>
   <description><![CDATA[ 
 
 
@@ -24,9 +24,6 @@
 <h2 class="anchored" data-anchor-id="renaming-selected-columns">Renaming selected columns</h2>
 <p>This was usually a rather small post with snippets but turned out to be much more interesting…</p>
 <p><strong>Loading the necessary package</strong></p>
-<div class="cell">
-
-</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(tidyverse)</span></code></pre></div>
 </div>
@@ -123,43 +120,43 @@ Some of the questions were only asked at baseline, some across all timepoints an
 <p>A spreadsheet was created in excel that essentially held information on the variable names of a specific questions across all time points. Additionally, the first column ‘global’ defines the new variable name that will be used across all datasets once the renaming took place. Below is a small example of how the excel-file looked like:</p>
 <div class="cell">
 <div class="cell-output-display">
-
-<table>
- <thead>
-  <tr>
-   <th style="text-align:left;"> global </th>
-   <th style="text-align:left;"> T0 </th>
-   <th style="text-align:left;"> T1 </th>
-   <th style="text-align:left;"> T2 </th>
-  </tr>
- </thead>
+<table class="table table-sm table-striped">
+<thead>
+<tr class="header">
+<th style="text-align: left;">global</th>
+<th style="text-align: left;">T0</th>
+<th style="text-align: left;">T1</th>
+<th style="text-align: left;">T2</th>
+</tr>
+</thead>
 <tbody>
-  <tr>
-   <td style="text-align:left;"> ID </td>
-   <td style="text-align:left;"> ID </td>
-   <td style="text-align:left;"> ID </td>
-   <td style="text-align:left;"> ID </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> X1 </td>
-   <td style="text-align:left;"> X1 </td>
-   <td style="text-align:left;"> X3 </td>
-   <td style="text-align:left;"> X2 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> X2 </td>
-   <td style="text-align:left;"> X4 </td>
-   <td style="text-align:left;"> X10 </td>
-   <td style="text-align:left;"> X11 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> X3 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> X2 </td>
-   <td style="text-align:left;"> X12 </td>
-  </tr>
+<tr class="odd">
+<td style="text-align: left;">ID</td>
+<td style="text-align: left;">ID</td>
+<td style="text-align: left;">ID</td>
+<td style="text-align: left;">ID</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">X1</td>
+<td style="text-align: left;">X1</td>
+<td style="text-align: left;">X3</td>
+<td style="text-align: left;">X2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">X2</td>
+<td style="text-align: left;">X4</td>
+<td style="text-align: left;">X10</td>
+<td style="text-align: left;">X11</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">X3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">X2</td>
+<td style="text-align: left;">X12</td>
+</tr>
 </tbody>
 </table>
+
 
 </div>
 </div>
@@ -394,14 +391,14 @@ Some of the questions were only asked at baseline, some across all timepoints an
 <li id="fn1"><p>Schubert et al., 2007, https://doi.org/10.1097/01.nnr.0000299853.52429.62↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://github.com/cathblatter/cathblatter-ch/posts/2022/2022-02-24_renaming-variables.html</guid>
-  <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/cathblatter/cathblatter-ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
+  <guid>https://cathblatter.github.io/cathblatter.ch/posts/2022/2022-02-24_renaming-variables.html</guid>
+  <pubDate>Wed, 23 Feb 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://cathblatter.github.io/cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>An (ever growing) list of random things in R</title>
   <dc:creator>Cath Blatter</dc:creator>
-  <link>https://github.com/cathblatter/cathblatter-ch/posts/2022/2022-01-27_random-stuff.html</link>
+  <link>https://cathblatter.github.io/cathblatter.ch/posts/2022/2022-01-27_random-stuff.html</link>
   <description><![CDATA[ 
 
 
@@ -413,9 +410,6 @@ Some of the questions were only asked at baseline, some across all timepoints an
 </section>
 <section id="print-calendar-in-r-console" class="level2">
 <h2 class="anchored" data-anchor-id="print-calendar-in-r-console">Print calendar in R console</h2>
-<div class="cell">
-
-</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">system</span>(<span class="st" style="color: #20794D;">"cal"</span>)</span></code></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -477,14 +471,14 @@ Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
 </section>
 
  ]]></description>
-  <guid>https://github.com/cathblatter/cathblatter-ch/posts/2022/2022-01-27_random-stuff.html</guid>
-  <pubDate>Thu, 27 Jan 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/cathblatter/cathblatter-ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
+  <guid>https://cathblatter.github.io/cathblatter.ch/posts/2022/2022-01-27_random-stuff.html</guid>
+  <pubDate>Wed, 26 Jan 2022 23:00:00 GMT</pubDate>
+  <media:content url="https://cathblatter.github.io/cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Installing &amp; using multiple R versions aside</title>
   <dc:creator>Cath Blatter</dc:creator>
-  <link>https://github.com/cathblatter/cathblatter-ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</link>
+  <link>https://cathblatter.github.io/cathblatter.ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</link>
   <description><![CDATA[ 
 
 
@@ -531,14 +525,14 @@ They worked out on my computer(s) but for inquiries about what is really happeni
 </section>
 
  ]]></description>
-  <guid>https://github.com/cathblatter/cathblatter-ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</guid>
-  <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/cathblatter/cathblatter-ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
+  <guid>https://cathblatter.github.io/cathblatter.ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</guid>
+  <pubDate>Fri, 05 Mar 2021 23:00:00 GMT</pubDate>
+  <media:content url="https://cathblatter.github.io/cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Using tidyr::pivot_longer() and regex for data wrangling</title>
   <dc:creator>Cath Blatter</dc:creator>
-  <link>https://github.com/cathblatter/cathblatter-ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</link>
+  <link>https://cathblatter.github.io/cathblatter.ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</link>
   <description><![CDATA[ 
 
 
@@ -704,14 +698,14 @@ My work as a research programmer allows me to dive into data wrangling problems 
 <li id="fn1"><p>https://rfordatascience.slack.com/archives/C8K09CDNZ/p1584129595187200 If you are not already on this slack - sign up for it! Its just so great, low key help and great learning opportunities to just dive through the topics. ↩︎</p></li>
 </ol>
 </section></div> ]]></description>
-  <guid>https://github.com/cathblatter/cathblatter-ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</guid>
-  <pubDate>Mon, 16 Mar 2020 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/cathblatter/cathblatter-ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
+  <guid>https://cathblatter.github.io/cathblatter.ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</guid>
+  <pubDate>Sun, 15 Mar 2020 23:00:00 GMT</pubDate>
+  <media:content url="https://cathblatter.github.io/cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Using purrr::map() to identify available datasets in a list</title>
   <dc:creator>Cath Blatter</dc:creator>
-  <link>https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map.html</link>
+  <link>https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map.html</link>
   <description><![CDATA[ 
 
 
@@ -767,7 +761,7 @@ $ Z_MED   &lt;int&gt; 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557
 <span id="cb3-6"><span class="co" style="color: #5E5E5E;"># And draw the map</span></span>
 <span id="cb3-7"><span class="fu" style="color: #4758AB;">maps2_</span>(two_cantons)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>This worked quite fine - but I was more interested in plotting by language region, so I did the following:</p>
@@ -789,7 +783,7 @@ $ Z_MED   &lt;int&gt; 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557
 <span id="cb4-15">  <span class="fu" style="color: #4758AB;">theme</span>(<span class="at" style="color: #657422;">legend.position =</span> <span class="st" style="color: #20794D;">"bottom"</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
 <span id="cb4-16">  <span class="fu" style="color: #4758AB;">coord_equal</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -808,7 +802,7 @@ $ Z_MED   &lt;int&gt; 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557
 <span id="cb5-9">  <span class="fu" style="color: #4758AB;">theme</span>(<span class="at" style="color: #657422;">legend.position =</span> <span class="st" style="color: #20794D;">"bottom"</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
 <span id="cb5-10">  <span class="fu" style="color: #4758AB;">coord_equal</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>…It got even worse…</p>
@@ -848,56 +842,56 @@ $ Z_MED   &lt;int&gt; 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557, 557
 <pre><code>$g1b15</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1g15_encl</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-2.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1g15_li</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-3.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1g15</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-4.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-4.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1k15</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-5.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-5.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1l15</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-6.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-6.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1r15</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-7.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-7.png" class="img-fluid" width="672"></p>
 </div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 $g1s15</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-8.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-6-8.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>From the plots above I now know which dataframe to use:</p>
@@ -920,7 +914,7 @@ $g1s15</code></pre>
 <span id="cb19-16">  <span class="fu" style="color: #4758AB;">theme</span>(<span class="at" style="color: #657422;">legend.position =</span> <span class="st" style="color: #20794D;">"bottom"</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
 <span id="cb19-17">  <span class="fu" style="color: #4758AB;">coord_equal</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>The output is what I wanted - altough we could improve it, as the lakes (which are left out in the district-level data) are not shown here…</p>
@@ -939,7 +933,7 @@ $g1s15</code></pre>
 <span id="cb20-10">  <span class="fu" style="color: #4758AB;">geom_polygon</span>(<span class="fu" style="color: #4758AB;">aes</span>(<span class="at" style="color: #657422;">x =</span> long, <span class="at" style="color: #657422;">y =</span> lat, <span class="at" style="color: #657422;">group =</span> group), </span>
 <span id="cb20-11">               <span class="at" style="color: #657422;">data =</span> shp_df[[<span class="st" style="color: #20794D;">"g1s15"</span>]], <span class="at" style="color: #657422;">fill =</span> <span class="cn" style="color: #8f5902;">NA</span>, <span class="at" style="color: #657422;">alpha =</span> .<span class="dv" style="color: #AD0000;">5</span>, <span class="at" style="color: #657422;">color =</span> <span class="st" style="color: #20794D;">"#0529B3"</span>, <span class="at" style="color: #657422;">size =</span> .<span class="dv" style="color: #AD0000;">1</span>, <span class="at" style="color: #657422;">lty =</span> <span class="st" style="color: #20794D;">"solid"</span>)</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 
@@ -955,22 +949,19 @@ $g1s15</code></pre>
 </ol>
 </section></div> ]]></description>
   <category>purrr</category>
-  <guid>https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-11-28-Using_purrr_map.html</guid>
-  <pubDate>Thu, 28 Nov 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/cathblatter/cathblatter-ch/posts/2019/plot-fail.png" medium="image" type="image/png" height="144" width="144"/>
+  <guid>https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-11-28-Using_purrr_map.html</guid>
+  <pubDate>Wed, 27 Nov 2019 23:00:00 GMT</pubDate>
+  <media:content url="https://cathblatter.github.io/cathblatter.ch/posts/2019/plot-fail.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Getting PubMed metadata with RISmed directly into RStudio</title>
   <dc:creator>Catherine Blatter</dc:creator>
-  <link>https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio.html</link>
+  <link>https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio.html</link>
   <description><![CDATA[ 
 
 
 
 
-<div class="cell">
-
-</div>
 <section id="what-is-this-post-about" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-this-post-about">What is this post about?</h2>
 <ul>
@@ -986,7 +977,7 @@ $g1s15</code></pre>
 <p>Usually, PubMed provides a small graphical display of the yearly publication count on each query as shown in the image below:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/pubmed_yearcount.png" class="img-fluid figure-img"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/pubmed_yearcount.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">PubMed year count</figcaption><p></p>
 </figure>
 </div>
@@ -1084,7 +1075,7 @@ attr(,"package")
 <span id="cb11-6">       <span class="at" style="color: #657422;">y =</span> <span class="st" style="color: #20794D;">"No. of publications"</span>) <span class="sc" style="color: #5E5E5E;">+</span></span>
 <span id="cb11-7">  <span class="fu" style="color: #4758AB;">theme_classic</span>()</span></code></pre></div>
 <div class="cell-output-display">
-<p><img src="https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
@@ -1127,9 +1118,9 @@ But hey, who does it this way when you can extract it with an R package?↩︎</
 </ol>
 </section></div> ]]></description>
   <category>RISmed</category>
-  <guid>https://github.com/cathblatter/cathblatter-ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio.html</guid>
-  <pubDate>Mon, 29 Apr 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://github.com/cathblatter/cathblatter-ch/posts/2019/pubmed_yearcount.png" medium="image" type="image/png" height="82" width="144"/>
+  <guid>https://cathblatter.github.io/cathblatter.ch/posts/2019/2019-04-29-getting-pubmed-metadata-from-within-rstudio.html</guid>
+  <pubDate>Sun, 28 Apr 2019 22:00:00 GMT</pubDate>
+  <media:content url="https://cathblatter.github.io/cathblatter.ch/posts/2019/pubmed_yearcount.png" medium="image" type="image/png" height="82" width="144"/>
 </item>
 </channel>
 </rss>

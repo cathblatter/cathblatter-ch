@@ -1,1 +1,1 @@
-Sitemap: https://github.com/cathblatter/cathblatter-ch/sitemap.xml
+Sitemap: https://cathblatter.github.io/cathblatter.ch/sitemap.xml
