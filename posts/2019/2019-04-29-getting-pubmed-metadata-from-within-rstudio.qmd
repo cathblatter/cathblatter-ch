@@ -1,0 +1,174 @@
+---
+title: Getting PubMed metadata with RISmed directly into RStudio 
+author: Catherine Blatter
+date: '2019-04-29'
+categories: [RISmed]
+image: pubmed_yearcount.png
+---
+
+```{r, echo=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+
+```
+
+
+## What is this post about?
+
+- For my master's thesis (stay tuned `r emo::ji("sunglasses")`) I came at 
+a point where I was interested in having a closer look at publication meta data (e.g. publications per year)  
+
+- PubMed usually does provide this service when you execute your search, for some reason it failed
+for my query
+
+- Being taught basic statistics I was determined to find a way to create
+the image myself... and came across the amazing RISmed-`r emo::ji("package")`
+
+`r emo::ji("right_arrow")` This blog post highlights how I used the RISmed package
+and gives short code examples 
+
+
+## Introduction - what were the problems I faced?
+
+The topic of my master's thesis - *unfinished / missed / rationed nursing care* - is an 
+important topic in health services research with growing numbers of publications over 
+the last years. Altough I did not have to use R extensively during my thesis, in one 
+specific case I greatly profited from it: 
+
+Usually, PubMed provides a small graphical display of the yearly publication
+count on each query as shown in the image below: 
+
+![PubMed year count](pubmed_yearcount.png)
+
+For some reason it failed for my exact search query. This was especially bad 
+because I had to make a somehow valid statement that the publication numbers were 
+increasing over the last years. 
+If I only could get all meta data (i.e. years) from my query (~900) into a spreadsheet...[^1]
+
+[^1]: Actually, PubMed does provide this service in a user friendly way: Execute your 
+search query, choose the results you want, then go to *Send to* -> *File* and you 
+get a .csv-file.  
+But hey, who does it this way when you can extract it with an
+R package?
+
+At some point I realized that the PubMed database should be accessible and I was sure 
+that R has a solution to it - that's how I found the [RISmed-package](https://cran.r-project.org/web/packages/RISmed/RISmed.pdf).
+
+## RISmed package
+
+In short: the RISmed package provides functions to extract bibliographic information from  
+the NCBI databases. In other words: you can extract the information from PubMed through 
+R code - exactly what I needed! 
+
+### How to use RISmed?
+
+First you need to install `install.packages("RISmed")` or load the package: 
+
+```{r}
+# load necessary packages
+library(tidyverse)
+library(RISmed)
+```
+
+Then you specify the search_topic and search_query: 
+
+```{r}
+# build the search topic
+search_topic <- 'missed care [TI] OR implicit rationing [TI] OR unfinished care [TI]'
+
+# the EUtilsSummary()-function gets information on your search results
+# (maximum results set as 1000, years between 1980 and 2019)
+search_query <- EUtilsSummary(search_topic, retmax=1000, mindate=1980,maxdate=2019)
+```
+
+`summary()` and `QueryId` get you quick overview of your results:  
+
+```{r}
+# Printing the summary displays the actual results that are available
+summary(search_query)
+
+# see the PMIIDs of our returned query
+QueryId(search_query)
+
+```
+
+If you think your query gets you a reasonable number of results you can then 
+further information on your records (i.e. dowloading the information): 
+
+```{r}
+# get the actual data from PubMed and store them in an object called records
+records <- EUtilsGet(search_query, type = "efetch", db = "pubmed")
+
+# check what kind of object "records" is
+class(records)
+```
+
+For creating your final dataframe to analyse the data, you need to extract information 
+as requested. You can choose either dataframe or list to store the results. Careful: 
+If you extract `Author()` you need to choose list, otherwise the variable is dropped.
+
+```{r}
+# store it in either list or dataframe (Author() returns a list, therefore 
+# list chosen here)
+pubmed_data_list <- list('Title' = ArticleTitle(records), 
+                         'Authors' = Author(records), 
+                         'Year' = YearPubmed(records), 
+                         'Journal' = Title(records),
+                         'PublicationType' = PublicationType(records),
+                         'Language' = Language(records))
+
+# version without Authors for dataframe
+pubmed_data <- data.frame('Title' = ArticleTitle(records),
+                    'Year' = YearPubmed(records), 
+                    'Journal' = Title(records),
+                    'Language' = Language(records))
+```
+
+Finally, I could visually explore the year count: 
+
+```{r}
+# plot the yearcount
+ggplot(pubmed_data, aes(x = factor(Year))) +
+  geom_bar() +
+  scale_y_discrete() +
+  labs(x = "Year",
+       y = "No. of publications") +
+  theme_classic()
+
+```
+
+## How could my thesis profit from the RISmed package? 
+
+The figure I created[^2] helped me visualize meta information on the publications: 
+I could clearly see that the topic *unfinished nursing care* has been mentioned 
+with increasing tendency in publications. This gave me valid data for accepting my assumption.  
+
+[^2]: (not the figure above, as the sample string I used in this post 
+was not as comprehensive as the full search string used in my thesis)
+
+Due to the nature of my thesis, I (sadly) didn't have to use the exact numbers. Yet, I still 
+learned two useful things `r emo::ji("bulb")`:  
+
+1) Using bibliographic information to inform your research may be helpful and should 
+not be forgotten.  
+
+2) I felt like I reached a whole new level of R's numerous capabilities: Using an 
+R package to connect to a web-database should not be the end of my discoveries `r emo::ji("smiley")`
+
+
+*Notes on this post*:  
+
+- Be careful with the search query - there can be differences in using different codes, see here: 
+https://stackoverflow.com/questions/32994991/r-package-rismed-different-results-using-the-eutilsget-or-summary-function
+
+- Dowloading information from PubMed (`EUtilsGet()`) can take a while
+
+- I had some trouble with long search terms (no further explanation found)  
+
+
+
+#### Other resources I used
+
+- https://datascienceplus.com/search-pubmed-with-rismed/  
+- https://www.r-bloggers.com/how-to-search-pubmed-with-rismed-package-in-r/  
+- https://www.rdocumentation.org/packages/RISmed/versions/2.1.4 
