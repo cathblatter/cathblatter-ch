@@ -3,7 +3,6 @@ project:
 
 website:
   title: "Cath Blatter"
-  site-url: https://cathblatter.ch
   navbar:
     right:
       - href: index.qmd
