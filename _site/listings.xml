@@ -393,7 +393,6 @@ Some of the questions were only asked at baseline, some across all timepoints an
 </section></div> ]]></description>
   <guid>https://cathblatter.ch/posts/2022/2022-02-24_renaming-variables.html</guid>
   <pubDate>Wed, 23 Feb 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>An (ever growing) list of random things in R</title>
@@ -473,7 +472,6 @@ Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
  ]]></description>
   <guid>https://cathblatter.ch/posts/2022/2022-01-27_random-stuff.html</guid>
   <pubDate>Wed, 26 Jan 2022 23:00:00 GMT</pubDate>
-  <media:content url="https://cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Installing &amp; using multiple R versions aside</title>
@@ -527,7 +525,6 @@ They worked out on my computer(s) but for inquiries about what is really happeni
  ]]></description>
   <guid>https://cathblatter.ch/posts/2021-03-06-installing-multiple-r-versions-aside/index.html</guid>
   <pubDate>Fri, 05 Mar 2021 23:00:00 GMT</pubDate>
-  <media:content url="https://cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Using tidyr::pivot_longer() and regex for data wrangling</title>
@@ -700,7 +697,6 @@ My work as a research programmer allows me to dive into data wrangling problems 
 </section></div> ]]></description>
   <guid>https://cathblatter.ch/posts/2020/2020-03-16-using-pivot-longer-and-regex-for-data-wrangling.html</guid>
   <pubDate>Sun, 15 Mar 2020 23:00:00 GMT</pubDate>
-  <media:content url="https://cathblatter.ch/posts/tools-placeholder.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>Using purrr::map() to identify available datasets in a list</title>
