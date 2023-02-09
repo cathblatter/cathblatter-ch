@@ -21,7 +21,7 @@ comments: false
 ---
 ::: {.column-page}
 
-## Bio
+## Hi, my name is Cath!
 
 I’m a registered-nurse-turned-data-lover working at a Swiss university. I like to build and hack code to make research faster, less ambiguous, more reproducible and to generate meaningful data insights and outputs for use in clinical settings.  
 
