@@ -38,4 +38,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# add two things to ignore for CI
 /.quarto/
+/_site/

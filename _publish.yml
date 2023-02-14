@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 5f50ea98-261e-4e40-8978-be0ebc4b89a0
+      url: 'https://vermillion-mermaid-c71772.netlify.app'
