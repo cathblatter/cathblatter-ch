@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Cath Blatter"
+  site-url: https://cathblatter.netlify.app
   navbar:
     right:
       - href: index.qmd
