@@ -2,18 +2,25 @@ project:
   type: website
 
 website:
-  title: "Cath Blatter"
+  title: "Catherine Blatter"
   site-url: https://cathblatter.netlify.app
   navbar:
+    title: "Catherine Blatter"
     right:
       - href: index.qmd
         text: Home
       - href: listings.html
         text: Posts
+      - icon: github
+        href: https://github.com/@cathblatter
+      - icon: mastodon
+        href: https://fosstodon.org/cathblatter
 
 format:
   html:
-    theme: [solar, custom.scss]
+    theme: 
+      - cosmo
+      - custom.scss
     css: styles.css
     toc: true
 

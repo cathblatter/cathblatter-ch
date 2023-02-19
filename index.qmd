@@ -48,7 +48,8 @@ and more reproducible and aim to provide meaningful data insights and outputs fo
 
 #### Work experience
 
-- since 2020: Teaching assistant 
+- since 2020: Teaching assistant   
+  *University of Basel*
 
 - since 2016: Research assistant  
   *University of Basel*
@@ -59,7 +60,7 @@ and more reproducible and aim to provide meaningful data insights and outputs fo
 
 ::::
 
-### Experience
+### Technical skills
 
 I have broad experience in data preparation and analysis in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of analytic workflows for teams with a non-technical background, including but not limited to:  
 
