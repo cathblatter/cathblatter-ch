@@ -95,13 +95,31 @@
     "href": "index.html",
     "title": "Cath Blatter",
     "section": "",
+<<<<<<< Updated upstream
     "text": "Hi!\nI’m a registered-nurse-turned-data-lover and PhD student at a Swiss university. I like to build and hack code to make research processes faster, less ambiguous and more reproducible and aim to provide meaningful data insights and outputs for use in clinical settings.\n\n\n\nEducation\n\nsince 2020: PhD student\nUniversity of Basel\n2019: MSc Nursing\nUniversity of Basel\n2012: Registered Nurse (RN)\n\n\n\n\nWork experience\n\nsince 2020: Teaching assistant\nUniversity of Basel\nsince 2016: Research assistant\nUniversity of Basel\n2012-2016: RN in several Swiss acute care hospitals\n\n\n\n\n\n\nTechnical skills\nI have broad experience in data preparation and analysis in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of analytic workflows for teams with a non-technical background, including but not limited to:\n\nmultilingual reporting of study results (descriptive & bench marked)\n\ndevelopment of several internally-used R packages\n\ndata visualization for communication with research and practice stakeholders\n\nInstruction, guidance and consultancy on programming / data management"
+=======
+    "text": "Hi!\nI’m a registered-nurse-turned-data-lover and PhD student at a Swiss university. I like to build and hack code to make research processes faster, less ambiguous, more reproducible and aim to provide meaningful data insights and outputs for use in clinical settings.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI have experience in ** data preparation and analysis** in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of analytic workflows for teams with a non-technical background, including but not limited to:\n\nmultilingual reporting of study results (descriptive & bench marked)\n\ndevelopment of several internally-used R packages\n\ndata visualization for communication with research and practice stakeholders\n\ninstruction, guidance and consultancy on programming and data management"
+>>>>>>> Stashed changes
   },
   {
     "objectID": "listings.html",
     "href": "listings.html",
-    "title": "Cath Blatter",
+    "title": "Catherine Blatter",
     "section": "",
     "text": "Different approaches to rename variables\n\n\n\n\n\n\n\n\n\n\n\n\nFeb 24, 2022\n\n\nCath Blatter\n\n\n\n\n\n\n  \n\n\n\n\nAn (ever growing) list of random things in R\n\n\n\n\n\n\n\n\n\n\n\n\nJan 27, 2022\n\n\nCath Blatter\n\n\n\n\n\n\n  \n\n\n\n\nInstalling & using multiple R versions aside\n\n\n\n\n\n\n\n\n\n\n\n\nMar 6, 2021\n\n\nCath Blatter\n\n\n\n\n\n\n  \n\n\n\n\nUsing tidyr::pivot_longer() and regex for data wrangling\n\n\n\n\n\n\n\n\n\n\n\n\nMar 16, 2020\n\n\nCath Blatter\n\n\n\n\n\n\n  \n\n\n\n\nUsing purrr::map() to identify available datasets in a list\n\n\n\n\n\n\n\npurrr\n\n\n\n\n\n\n\n\n\n\n\nNov 28, 2019\n\n\nCath Blatter\n\n\n\n\n\n\n  \n\n\n\n\nGetting PubMed metadata with RISmed directly into RStudio\n\n\n\n\n\n\n\nRISmed\n\n\n\n\n\n\n\n\n\n\n\nApr 29, 2019\n\n\nCatherine Blatter\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Catherine Blatter",
+    "section": "",
+    "text": "since 2020: PhD student\nUniversity of Basel\n2019: MSc Nursing\nUniversity of Basel\n2012: Registered Nurse (RN)"
+  },
+  {
+    "objectID": "about.html#work-experience",
+    "href": "about.html#work-experience",
+    "title": "Catherine Blatter",
+    "section": "Work experience",
+    "text": "Work experience\n\nsince 2020: Teaching assistant\nsince 2016: Research assistant\nUniversity of Basel\n2012-2016: RN in several Swiss acute care hospitals"
   }
 ]
