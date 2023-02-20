@@ -1,5 +1,5 @@
 ---
-title: "Cath Blatter"
+title: "Catherine Blatter"
 image: cb.jpg
 about:
   template: trestles
@@ -25,10 +25,10 @@ comments: false
 ### Hi :wave:!
 
 I’m a **registered-nurse-turned-data-lover** and PhD student at a Swiss university. 
-I like to build and hack **code to make research processes faster, less ambiguous, more reproducible** 
+I like to build and hack **code** to make **research processes faster, less ambiguous, more reproducible** 
 and aim to provide **meaningful data insights and outputs** for use in clinical settings.     
 
-I have experience in **data preparation and analysis** in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of **analytic workflows  for teams with a non-technical background**, including but not limited to:  
+I have experience in **data preparation and analysis** in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of **analytic workflows**  for teams with a non-technical background, including but not limited to:  
 
   - **multilingual reporting** of study results (descriptive & bench marked)  
   - development of several internally-used **R packages**  
