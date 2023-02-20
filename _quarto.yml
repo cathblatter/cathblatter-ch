@@ -8,11 +8,11 @@ website:
     title: "Catherine Blatter"
     right:
       - href: index.qmd
-        text: Home
+        text: home
       - href: about.qmd
-        text: About
+        text: about
       - href: listings.html
-        text: Posts
+        text: posts
       - icon: github
         href: https://github.com/@cathblatter
       - icon: mastodon
@@ -28,3 +28,5 @@ format:
 
 execute:
   freeze: auto
+  
+from: markdown+emoji

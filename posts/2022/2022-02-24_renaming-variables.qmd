@@ -4,7 +4,7 @@ author: Cath Blatter
 date: '2022-02-24'
 ---
 
-## Renaming selected columns
+## Renaming individual columns
 
 This was usually a rather small post with snippets but turned out to be 
 much more interesting...

@@ -22,45 +22,13 @@ comments: false
 ---
 ::: {.column-page}
 
-### Hi!
+### Hi :wave:!
 
 I’m a **registered-nurse-turned-data-lover** and PhD student at a Swiss university. 
 I like to build and hack **code to make research processes faster, less ambiguous, more reproducible** 
 and aim to provide **meaningful data insights and outputs** for use in clinical settings.     
 
-<!-- :::: {.columns} -->
-
-<!-- :::{.column} -->
-
-<!-- #### Education -->
-
-<!-- - since 2020: PhD student   -->
-<!--   *University of Basel* -->
-
-<!-- - 2019: MSc Nursing   -->
-<!--   *University of Basel* -->
-
-<!-- - 2012: Registered Nurse (RN) -->
-
-<!-- ::: -->
-
-<!-- ::: {.column} -->
-
-<!-- #### Work experience -->
-
-<!-- - since 2020: Teaching assistant  -->
-
-<!-- - since 2016: Research assistant   -->
-<!--   *University of Basel* -->
-
-<!-- - 2012-2016: RN in several Swiss acute care hospitals  -->
-
-<!-- ::: -->
-
-<!-- :::: -->
-
-
-I have experience in ** data preparation and analysis**  in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of **analytic workflows  for teams with a non-technical background**, including but not limited to:  
+I have experience in **data preparation and analysis** in health services research (i.e., survey studies and routinely collected data from electronic health records). My latest work includes development and implementation of **analytic workflows  for teams with a non-technical background**, including but not limited to:  
 
   - **multilingual reporting** of study results (descriptive & bench marked)  
   - development of several internally-used **R packages**  
