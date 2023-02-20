@@ -2,6 +2,7 @@
 title: Different approaches to rename variables 
 author: Cath Blatter
 date: '2022-02-24'
+image: names.png
 ---
 
 ## Renaming individual columns
