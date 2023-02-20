@@ -14,9 +14,9 @@ website:
       - href: listings.html
         text: posts
       - icon: github
-        href: https://github.com/@cathblatter
+        href: https://github.com/cathblatter
       - icon: mastodon
-        href: https://fosstodon.org/cathblatter
+        href: https://fosstodon.org/@cathblatter
 
 format:
   html:
