@@ -1,5 +1,5 @@
 ---
-title: "Catherine Blatter"
+title: "Catherine Blatter, RN, MSc"
 image: cb.jpg
 about:
   template: trestles
