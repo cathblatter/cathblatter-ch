@@ -9,9 +9,9 @@ website:
     right:
       - href: index.qmd
         text: home
-      - href: about.qmd
+      - href: about/
         text: about
-      - href: listings.html
+      - href: listings.qmd
         text: posts
       - icon: github
         href: https://github.com/cathblatter
