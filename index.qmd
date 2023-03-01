@@ -1,5 +1,5 @@
 ---
-title: "Catherine Blatter, RN, MSc"
+title: "Catherine Blatter"
 image: cb.jpg
 about:
   template: trestles
@@ -33,6 +33,6 @@ I have experience in **data preparation and analysis** in health services resear
   - **multilingual reporting** of study results (descriptive & bench marked)  
   - development of several internally-used **R packages**  
   - **data visualization** for communication with research and practice stakeholders  
-  - instruction, guidance and consultancy on **programming and data management**  
+  - instruction, guidance and consultancy on **programming** and **data management**  
 
 :::
