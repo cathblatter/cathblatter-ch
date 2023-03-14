@@ -34,5 +34,4 @@ I have experience in **data preparation and analysis** in health services resear
   - development of several internally-used **R packages**  
   - **data visualization** for communication with research and practice stakeholders  
   - instruction, guidance and consultancy on **programming** and **data management**  
-
 :::

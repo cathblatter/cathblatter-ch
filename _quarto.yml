@@ -9,8 +9,8 @@ website:
     right:
       - href: index.qmd
         text: home
-      - href: about/
-        text: about
+      # - href: about/
+      #   text: about
       - href: listings.qmd
         text: posts
       - icon: github
