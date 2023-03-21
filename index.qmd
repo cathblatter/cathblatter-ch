@@ -24,7 +24,7 @@ comments: false
 
 ### Hi :wave:!
 
-I’m a **registered-nurse-turned-data-lover** and PhD student at a Swiss university. 
+I’m a **registered-nurse-turned-data-lover** working at a Swiss university. 
 I like to build and hack **code** to make **research processes faster, less ambiguous, more reproducible** 
 and aim to provide **meaningful data insights and outputs** for use in clinical settings.     
 
