@@ -12,7 +12,7 @@ about:
       url: "https://twitter.com/cathblatter"
     - text: Mastodon
       icon: mastodon
-      url: "https://fosstodon.org/@cathblatter"
+      url: "https://mstdn.nursing.unibas.ch/@cathblatter"
     - text: GitHub
       icon: github
       url: "https://github.com/cathblatter"
